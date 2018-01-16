@@ -1,2 +1,2 @@
 #!/bin/bash
-dpkg-buildpackage -rfakeroot -us -uc -tc
+cd pkg && dpkg-buildpackage -rfakeroot -us -uc -tc
