@@ -1,0 +1,5 @@
+r-cran-bh (0.0.1-0local1) unstable; urgency=low
+
+  * Initial "local" package -- not uploaded to Debian
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 15 Jan 2018 18:21:09 -0600

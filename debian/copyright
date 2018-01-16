@@ -1,0 +1,10 @@
+Name: r-cran-bh
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+
+Files: debian/*
+Copyright: (C) 2018 Dirk Eddelbuettel <edd@debian.org>
+License: GPL (>= 2)
+
+Files: *
+Copyright: (C) 2018 Dirk Eddelbuettel <edd@debian.org>
+License: GPL (>= 2)

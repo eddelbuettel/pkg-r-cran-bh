@@ -1,0 +1,15 @@
+Source: r-cran-bh
+Section: gnu-r
+Priority: optional
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Build-Depends: debhelper (>= 9~), r-base-dev (>= 3.4.3)
+Standards-Version: 4.1.3
+
+Package: r-cran-bh
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, libboost-all-dev
+Description: (Virtual) GNU R package to provide BH
+ The CRAN package BH provides a (large) subset of Boost.  This package tricks
+ R into believing BH is installed when we just depend on the distribution's
+ Boost packages.  The actual set of Boost library could get fine-tuned

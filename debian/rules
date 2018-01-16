@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+# 							-*- makefile -*-
+# debian/rules file for the Debian/GNU Linux r-cran-viridis package
+# Copyright 2003-2016 by Dirk Eddelbuettel <edd@debian.org>
+
+include /usr/share/R/debian/r-cran.mk
+
